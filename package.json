@@ -1,0 +1,24 @@
+{
+  "name": "autoweb6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "web:chrheaded": "cypress run --browser chrome --headed --config-file cypress.config.js",
+    "web:chrheadless": "cypress run --browser chrome --headless --config-file cypress.config.js",
+    "mobile:chrheaded": "cypress run --browser chrome --headed --config-file cypress.config.mobile.js",
+    "mobile:chrheadless": "cypress run --browser chrome --headless --config-file cypress.config.mobile.js",
+    "web:edgeheaded": "cypress run --browser edge --headed --config-file cypress.config.js",
+    "web:edgeheadless": "cypress run --browser edge --headless --config-file cypress.config.js",
+    "mobile:edgeheaded": "cypress run --browser edge --headed --config-file cypress.config.mobile.js",
+    "mobile:edgeheadless": "cypress run --browser edge --headless --config-file cypress.config.mobile.js"
+  },
+  "keywords": [
+    "test",
+    "cypress"
+  ],
+  "author": "Sabina Zholtaeva",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.12.0"
+  }
+}
